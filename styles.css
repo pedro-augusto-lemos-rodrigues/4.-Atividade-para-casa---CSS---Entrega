@@ -1,0 +1,72 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+/* .container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;     /* agora eixo principal é vertical */
+  justify-content: space-between; /* espaço igual entre eles no eixo vertical */
+  align-items: center;        /* centraliza horizontalmente */
+  height: 100vh;              /* precisa para o space-between ocupar a altura toda */
+}
+
+.cabecalho {
+  background-color: #FFD700; 
+  text-align: center;         
+  width: 100%;
+  padding: 10px;
+}
+
+
+.titulo-principal {
+  color: #1E90FF;  
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.subtitulo {
+  color: #FF4500;  
+  font-size: 20px;
+}
+
+.conteudo {
+  background-color: #F0E68C; 
+  color: #333333;             
+  width: 100%;
+  padding: 10px;
+}
+
+.conteudo > p {
+  /*
+  .conteudo → seleciona a div com a classe conteudo.
+  > → significa “somente filhos diretos” (não netos ou mais profundos).
+  p → seleciona os parágrafos dentro dessa div.
+  */
+  color: #E4005A;
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
